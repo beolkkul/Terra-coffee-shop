@@ -1,0 +1,128 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+     overflow-x: hidden;
+}
+html {
+    font-size: 16px;
+}
+ nav {
+background-color: bisque;
+display: flex;
+ }
+.buttons {
+    background-color: #8B4513;
+    position: relative;
+    left: 77rem;
+    padding: 10px;
+    margin: 0;
+}
+ .brown {
+    width: 5rem;
+    height: auto;
+ }
+
+ /** banner area **/ 
+ .banner {
+   background-image: url("./images/background\ imgs.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% auto;
+   width: 100%;
+    height: 41rem;
+   margin: 2px;
+ }
+ .mainlogo {
+  width: 18rem;
+  position: relative;
+  top: 8.5em;
+  left: 40em;
+ }
+ .maintext {
+    color: azure;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    top: 8.5em;
+    left: 43em;
+ }
+/** whole page section **/
+
+.main {
+    background-image: url(./images/coffe\ shop\ outside.jpg);
+    height: auto;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: repeat;
+}
+p {
+    color: aliceblue;
+    font-family: cursive;
+}
+.text {
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 25px #d429fb, 0 0 5px #cd0ef8;;
+}
+
+.story {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5%;
+  border: 2.5px solid burlywood;
+}
+.image-container {
+     display: flex;              /* puts images side by side */
+  justify-content: center;    /* centers them horizontally */
+  align-items: center;        /* aligns them vertically (if needed) */
+  gap: 20px;
+}
+.cat {
+  border-radius: 5%;
+}
+.doit {
+    gap: 20px;
+    
+}
+.doit img {
+    border: #7d3c0e 4px solid;
+}
+.do-this {
+    display: flex;              /* puts images side by side */
+  justify-content: center;    /* centers them horizontally */
+  align-items: center;        /* aligns them vertically (if needed) */
+  gap: 20px; 
+}
+/** all photos **/
+.photo {
+    height: 20em;
+    width: auto;
+    border-radius: 5%;
+}
+
+/** footer **/ 
+.meet-team{
+ display: inline-flex;
+}
+
+/**.card {
+      float: left;
+} **/
+.team {
+    border-radius: 50%;
+    margin: 20px;
+}
+
+footer {
+    background-color: #8B4513;  
+}
+.bottom {
+    height: 8rem;
+     position: relative;
+  top: 0em;
+  left: 45%;
+}
+
+.foot {
+    text-align: center;
+}
