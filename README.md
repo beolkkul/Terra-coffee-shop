@@ -4,7 +4,7 @@
 
 welcome to `Terra infinity coffee shop`
 
-![Image](//resourses/styling/images/logo.png)
+![img logo](./resourses/styling/images/logo.png)
 
 
 ### our themes
